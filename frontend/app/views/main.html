@@ -1,0 +1,11 @@
+
+
+<div class="row marketing" ng-controller="NameCtrl">
+    <h4>Your name is: {{currentName}}</h4>
+  
+    <form>
+        <label>Enter new name</label>
+        <input type="text" ng-model="newName"/> 
+        <input type="button" ng-click="setName()" value="Set"/>
+    </form>
+</div>
